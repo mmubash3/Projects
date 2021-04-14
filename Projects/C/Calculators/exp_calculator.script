@@ -1,0 +1,33 @@
+Script started on 2020-10-03 11:59:20-04:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="120" LINES="50"]
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ date
+Sat 03 Oct 2020 11:59:27 AM EDT
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ who am i
+mmubash3 pts/9        2020-10-03 11:59
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ pwd
+/home/mmubash3/courses/cs2211a/Asn/asn2
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ ./exp_calculator
+Welcome to the exponential calculator
+Please enter a base
+2
+Pleasae enter an exponent
+2
+2.000000^2 = 4.000000
+Please enter a base
+2.4
+Pleasae enter an exponent
+3
+2.400000^3 = 13.824001
+Please enter a base
+3 5
+Pleasae enter an exponent
+-2
+5.000000^-2 = 0.040000
+Please enter a base
+0
+Pleasae enter an exponent
+1
+Program has ended
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ exit
+exit
+
+Script done on 2020-10-03 12:00:44-04:00 [COMMAND_EXIT_CODE="0"]

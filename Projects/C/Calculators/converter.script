@@ -1,0 +1,165 @@
+Script started on 2020-10-03 17:20:57-04:00 [TERM="xterm-256color" TTY="/dev/pts/34" COLUMNS="120" LINES="50"]
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ date
+Sat 03 Oct 2020 05:21:05 PM EDT
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ who am i
+mmubash3 pts/9        2020-10-03 17:20
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ pwd
+/home/mmubash3/courses/cs2211a/Asn/asn2
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ ./converter
+Welcome to the converter 
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+8
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+h
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+1
+Please enter
+K for conversion from Kilometer to Mile
+M for conversion from Mile to Kilometer
+K
+Please input the value:
+50
+50.000000 Km = 31.075203 Mi
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+1
+Please enter
+K for conversion from Kilometer to Mile
+M for conversion from Mile to Kilometer
+M
+Please input the value:
+34
+34.000000 M = 54.705997 Km
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+2
+Please enter
+L for conversion from Litre to Gallon
+G for conversion from Gallon to Litre
+L
+Please input the value:
+45
+45.000000 L = 11.889035 Gal
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+2
+Please enter
+L for conversion from Litre to Gallon
+G for conversion from Gallon to Litre
+G
+Please input the value:
+56
+56.000000 Gal = 211.960007 L
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+3
+Please enter
+C for conversion from Centimetre to Inch
+I for conversion from Inch to Centimetre
+C
+Please input the value:
+98
+98.000000 CM = 38.582676 IN
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+3
+Please enter
+C for conversion from Centimetre to Inch
+I for conversion from Inch to Centimetre
+I
+Please input the value:
+56  24
+24.000000 IN = 60.959999 CM
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+4
+Please enter
+C for conversion from Celsius to Fahrenheit
+F for conversion from Fahrenheit to Celsius
+C
+Please input the value:
+456
+456.000000 C = 852.799988 F
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+4
+Please enter
+C for conversion from Celsius to Fahrenheit
+F for conversion from Fahrenheit to Celsius
+2 F
+Please input the value:
+200
+200.000000 F = 93.333336 C
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+1
+Please enter
+K for conversion from Kilometer to Mile
+M for conversion from Mile to Kilometer
+h
+Please enter
+K for conversion from Kilometer to Mile
+M for conversion from Mile to Kilometer
+M
+Please input the value:
+34
+34.000000 M = 54.705997 Km
+Please enter 
+1 for conversion between Kilometer and Mile
+2 for conversion between Litre and Gallon
+3 for conversion between Centimetre and Inch
+4 for conversion between Celsius and Fahrenheit
+5 to quit
+5
+END OF PROGRAM 
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn2[mmubash3@compute asn2]$ exit
+exit
+
+Script done on 2020-10-03 17:23:12-04:00 [COMMAND_EXIT_CODE="0"]

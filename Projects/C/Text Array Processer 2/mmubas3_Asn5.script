@@ -1,0 +1,140 @@
+Script started on 2020-11-30 18:48:31-05:00 [TERM="xterm-256color" TTY="/dev/pts/86" COLUMNS="120" LINES="45"]
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn5[mmubash3@compute asn5]$ date
+Mon 30 Nov 2020 06:48:39 PM EST
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn5[mmubash3@compute asn5]$ who am i
+mmubash3 pts/112      2020-11-30 18:48
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn5[mmubash3@compute asn5]$ pwd
+/home/mmubash3/courses/cs2211a/Asn/asn5
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn5[mmubash3@compute asn5]$ ls
+Asn_SubmissionForm.txt  find_word.c  helper_function.c  Makefile             print_functions.c
+delete_function.c       headers.h    main.c             mmubas3_Asn5.script  setting_struct.c
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn5[mmubash3@compute asn5]$ make
+cc main.c find_word.c helper_function.c setting_struct.c delete_function.c print_functions.c -o myParagraph
+[01m[Kfind_word.c:[m[K In function ‘[01m[Kfind_word[m[K’:
+[01m[Kfind_word.c:37:21:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kword *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct word *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   37 |           root_word [01;35m[K=[m[K root_word->next_word;//goes to next word to check with that word
+      |                     [01;35m[K^[m[K
+[01m[Kfind_word.c:39:23:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   39 |         root_sentence [01;35m[K=[m[K (root_sentence->next_sentence);//goes to next sentence to check all words in sentence
+      |                       [01;35m[K^[m[K
+[01m[Ksetting_struct.c:[m[K In function ‘[01m[KinsertWord[m[K’:
+[01m[Ksetting_struct.c:30:52:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KinsertWord[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+   30 |       root_word -> next_word =insertWord([01;35m[Kroot_word -> next_word[m[K,char_pointer,num_char, pos_word);
+      |                                          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~[m[K
+      |                                                    [01;35m[K|[m[K
+      |                                                    [01;35m[Kstruct word *[m[K
+[01m[Ksetting_struct.c:20:24:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kword *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} but argument is of type ‘[01m[Kstruct word *[m[K’
+   20 | word* insertWord([01;36m[Kword* root_word[m[K,char *char_pointer, int num_char, int pos_word)
+      |                  [01;36m[K~~~~~~^~~~~~~~~[m[K
+[01m[Ksetting_struct.c:30:30:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kstruct word *[m[K’ from incompatible pointer type ‘[01m[Kword *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} [[01;35m[K-Wincompatible-pointer-types[m[K]
+   30 |       root_word -> next_word [01;35m[K=[m[KinsertWord(root_word -> next_word,char_pointer,num_char, pos_word);
+      |                              [01;35m[K^[m[K
+[01m[Ksetting_struct.c:[m[K In function ‘[01m[KinsertSentence[m[K’:
+[01m[Ksetting_struct.c:57:66:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KinsertSentence[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+   57 |       root_sentence->next_sentence =insertSentence([01;35m[Kroot_sentence -> next_sentence[m[K,word_pointer,num_words, line_count);
+      |                                                    [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+      |                                                                  [01;35m[K|[m[K
+      |                                                                  [01;35m[Kstruct sentence *[m[K
+[01m[Ksetting_struct.c:47:36:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} but argument is of type ‘[01m[Kstruct sentence *[m[K’
+   47 | sentence* insertSentence([01;36m[Ksentence* root_sentence[m[K,word *word_pointer, int num_words, int line_count)
+      |                          [01;36m[K~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[Ksetting_struct.c:57:36:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kstruct sentence *[m[K’ from incompatible pointer type ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} [[01;35m[K-Wincompatible-pointer-types[m[K]
+   57 |       root_sentence->next_sentence [01;35m[K=[m[KinsertSentence(root_sentence -> next_sentence,word_pointer,num_words, line_count);
+      |                                    [01;35m[K^[m[K
+[01m[Kdelete_function.c:[m[K In function ‘[01m[Kset_sentence_numbers[m[K’:
+[01m[Kdelete_function.c:20:19:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   20 |     root_sentence [01;35m[K=[m[K root_sentence->next_sentence;
+      |                   [01;35m[K^[m[K
+[01m[Kdelete_function.c:[m[K In function ‘[01m[Kdelete_all_words[m[K’:
+[01m[Kdelete_function.c:34:15:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kword *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct word *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   34 |     root_word [01;35m[K=[m[K root_word ->next_word;
+      |               [01;35m[K^[m[K
+[01m[Kdelete_function.c:[m[K In function ‘[01m[Kdelete_sentence[m[K’:
+[01m[Kdelete_function.c:49:14:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   49 |     new_root [01;35m[K=[m[K root_sentence->next_sentence;
+      |              [01;35m[K^[m[K
+[01m[Kdelete_function.c:62:21:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   62 |       root_sentence [01;35m[K=[m[K root_sentence->next_sentence;
+      |                     [01;35m[K^[m[K
+[01m[Kdelete_function.c:64:19:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   64 |     post_sentence [01;35m[K=[m[K root_sentence->next_sentence; //the node after the one meant to be deleted
+      |                   [01;35m[K^[m[K
+[01m[Kdelete_function.c:67:33:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kstruct sentence *[m[K’ from incompatible pointer type ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} [[01;35m[K-Wincompatible-pointer-types[m[K]
+   67 |     pre_sentence->next_sentence [01;35m[K=[m[K post_sentence; //adjust the pointers prev_node points to next node now
+      |                                 [01;35m[K^[m[K
+[01m[Kdelete_function.c:[m[K In function ‘[01m[Kclear_memory[m[K’:
+[01m[Kdelete_function.c:133:21:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+  133 |       root_sentence [01;35m[K=[m[K (root_sentence->next_sentence); //goes to next node
+      |                     [01;35m[K^[m[K
+[01m[Kprint_functions.c:[m[K In function ‘[01m[KprintWords[m[K’:
+[01m[Kprint_functions.c:34:19:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Kword *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct word *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   34 |         root_word [01;35m[K=[m[K root_word->next_word;//goes to next word and prints this word
+      |                   [01;35m[K^[m[K
+[01m[Kprint_functions.c:[m[K In function ‘[01m[KprintWordSeparately[m[K’:
+[01m[Kprint_functions.c:52:23:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   52 |         root_sentence [01;35m[K=[m[K (root_sentence->next_sentence);//goes to next sentence node
+      |                       [01;35m[K^[m[K
+[01m[Kprint_functions.c:[m[K In function ‘[01m[KprintSentences[m[K’:
+[01m[Kprint_functions.c:75:23:[m[K [01;35m[Kwarning: [m[Kassignment to ‘[01m[Ksentence *[m[K’ {aka ‘[01m[Kstruct <anonymous> *[m[K’} from incompatible pointer type ‘[01m[Kstruct sentence *[m[K’ [[01;35m[K-Wincompatible-pointer-types[m[K]
+   75 |         root_sentence [01;35m[K=[m[K (root_sentence->next_sentence);//prints sentence
+      |                       [01;35m[K^[m[K
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn5[mmubash3@compute asn5]$ ./myParagraph
+Enter a string:how are you doing today
+Enter a string:i am doing good today
+Enter a string:what about you
+Enter a string:you're    are amazing
+Enter a string:
+how are you doing today 
+i am doing good today 
+what about you 
+you are amazing 
+
+Enter a word to search: you
+you
+ found in line 1 position 3 
+you
+ found in line 3 position 3 
+you
+ found in line 4 position 1 
+
+Enter a word to search: today
+today
+ found in line 1 position 5 
+today
+ found in line 2 position 5 
+
+Enter a word to search: how
+how
+ found in line 1 position 1 
+
+Enter a word to search: amazing
+amazing
+ found in line 4 position 3 
+
+Enter a word to search: 
+Enter sentence number to delete: 8
+Request denied: Input sentence number is greater than number of sentences
+Enter sentence number to delete: 2
+remaining sentences are: 
+Sentence no. 1 
+how are you doing today 
+Sentence no. 2 
+what about you 
+Sentence no. 3 
+you are amazing 
+
+Enter sentence number to delete: 2
+remaining sentences are: 
+Sentence no. 1 
+how are you doing today 
+Sentence no. 2 
+you are amazing 
+
+Enter sentence number to delete: 
+Beginning to clear memory
+All of the memory in heap has been cleared
+END OF PROGRAM
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn5[mmubash3@compute asn5]$ exit
+exit
+
+Script done on 2020-11-30 18:50:25-05:00 [COMMAND_EXIT_CODE="0"]

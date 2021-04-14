@@ -1,0 +1,72 @@
+Script started on 2020-10-20 18:24:39-04:00 [TERM="xterm-256color" TTY="/dev/pts/49" COLUMNS="237" LINES="55"]
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ date
+Tue 20 Oct 2020 06:24:41 PM EDT
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ who am i [K
+mmubash3 pts/24       2020-10-20 18:24
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ pwd
+/home/mmubash3/courses/cs2211a/Asn/asn3
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ gcc -o asn3a.[K asn3a.c
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ gcc - [K0[Ko asn3b asn3b.c
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ ./asn3a
+Size of array: 60 bytes 
+Length of array: 15 elements 
+
+PART 1:
+The values store into the array are :
+12     63     44     89     3     55     73     27     37     18     2     69     420     62     91     
+
+PART 2:
+The values store into the array in reverse are :
+91     62     420     69     2     18     37     27     73     55     3     89     44     63     12     
+
+PART 3:
+The smallest value stored in the array is :
+value: 2 at the 11th position from the left
+
+PART 4:
+The sum (total) value of the array is :
+12  +  63  +  44  +  89  +  3  +  55  +  73  +  27  +  37  +  18  +  2  +  69  +  420  +  62  +  91  equals: 1065
+
+PART 5:
+Copy the array into a new array, but in reverse order :
+Original array :
+12     63     44     89     3     55     73     27     37     18     2     69     420     62     91     
+New (Reversed) array :
+91     62     420     69     2     18     37     27     73     55     3     89     44     63     12     
+
+PART 6:
+Switch the first value in the array with the last value in the array :
+Original array :
+12     63     44     89     3     55     73     27     37     18     2     69     420     62     91     
+Changed array :
+91     63     44     89     3     55     73     27     37     18     2     69     420     62     12     
+
+PART 7:
+Sort the array in ascending order :
+Original array :
+91     63     44     89     3     55     73     27     37     18     2     69     420     62     12     
+Changed array :
+2     3     12     18     27     37     44     55     62     63     69     73     89     91     420     
+
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ ./asn3b
+Input? 1
+The final total is: 0
+Input? 2
+The final total is: 2
+Input? 3
+The final total is: 5
+Input? 4
+The final total is: 5
+Input? 5
+The final total is: 10
+Input? 7
+The final total is: 17
+Input? 11
+The final total is: 28
+Input? 0
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ mv asn3a.c mmubash3_asn3a.c
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ mv asn3b.c mmubash3_asn3b.c
+]0;mmubash3@compute:~/courses/cs2211a/Asn/asn3[mmubash3@compute asn3]$ exit
+exit
+
+Script done on 2020-10-20 18:26:13-04:00 [COMMAND_EXIT_CODE="0"]
